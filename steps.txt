@@ -51,3 +51,14 @@
 
 16. Check your ML app on Public DNS with your port number 8080  [e.g ec2-13-234-122-242.ap-south-1.compute.amazonaws.com:8080]
 
+IF you want to run without interuption 
+nohup python3 app.py
+
+to get id 
+ps -ef | grep python
+
+kill id_number
+
+
+
+
